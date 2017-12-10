@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  </head>
+
+  <body>
+    <video autoplay loop muted id="background">
+      <source src="assets/images/Airport-283.mp4" type="video/mp4">
+    </video>
+    <audio id="glass" src="https://actions.google.com/sounds/v1/impacts/glass_drop_and_roll.ogg" type="audio/ogg"></audio>
+    <div class="jumbotron">
+      <h1 class="text-center">Match the Flight Number</h1>
+    </div>
+  
+  <div class="container">
+    <div class="row" id="">
+      <div class="col-sm-6" id="left-panel-div">
+        <br>
+        <br>
+        <h2>Instructions</h2>
+        <br>
+        <ul>
+            <li>You will be given a random flight number at the start of the game</li><br>
+            <li>There are 4 planes below. By clicking on a plane you will add a specific amount to your flight number</li><br>
+            <li>Win by matching your flight number to the random flight number. You lose the game if your flight number goes above the random flight number</li><br>
+            <li>The value of each plane below is hidden until you click on it.</li><br>
+            <li>The value of each plane changes every time the game restarts</li>
+        </ul>
+        <br>
+
+      </div>
+      <div class="col-lg-1" id="middle-panel-div"></div>
+      <div class="col-lg-4" id="right-panel-div">
+        <div class="row" id="matchFlight-div"></div>
+          <h2>Today's Flight Number</h2>
+        <div class="row" id="totalFlight-div"></div>
+          <h2>Your Flight Number</h2>
+          <br>
+        <div class="row" id="instruct-counter-div"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="containerPlanes">
+    <div class="row" id="planes-div">
+      <div class="col-sm-3"><img id="b787" src="assets/images/B787.png" width="250" height="150" ></div>
+      <div class="col-sm-3"><img id="b748" src="assets/images/747_Front.png" width="450" height="100" ></div>
+      <div class="col-sm-3"><img id="cathay747" src="assets/images/Cathay_747.png" width="380" height="150" ></div>
+      <div class="col-sm-3"><img id="boeing747" src="assets/images/747_Side.png" width="380" height="150" ></div>
+    </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+</html>

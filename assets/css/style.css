@@ -1,0 +1,75 @@
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.container h1 {
+    color: white;
+}
+
+h1{
+	font-size: 75px;
+	color: #20437c;
+}
+h2{
+	font-size: 28px;
+	font-style: bold;
+}
+
+#instruct-font{
+	font-size: 20px;
+	font-style: bold;
+}
+.container{
+	width: 968px;
+}
+.row {
+	margin: 20px;
+}
+#left-panel-div{
+	background-color: #eff0f2;
+	border-radius: 15px;
+	font-size: 24px;
+	font-style: bold;
+	border: 3px solid black;
+	text-align: left;
+}
+#right-panel-div{
+	background-color: #eff0f2;
+	border-radius: 15px;
+	font-size: 24px;
+	font-style: bold;
+	border: 3px solid black;
+	text-align: center;
+	color: green;
+}
+
+#instruct-counter-div{
+	height: auto;
+	font-size: 30px;
+	color: #20437c;
+}
+#matchFlight-div{
+	height: 50px;
+	font-size: 80px;
+	padding: 80px;
+}
+#totalFlight-div{
+	height: 50px;
+	font-size: 80px;
+	text-align: left;
+	padding: 90px;
+}
+#planes-div{
+	height: 175px;
+	width: 100%;
+	padding: 10px;
