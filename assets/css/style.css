@@ -57,6 +57,7 @@ h2{
 	height: auto;
 	font-size: 30px;
 	color: #20437c;
+	text-align: center;
 }
 #matchFlight-div{
 	height: 50px;
@@ -73,3 +74,4 @@ h2{
 	height: 175px;
 	width: 100%;
 	padding: 10px;
+	text-align:;
